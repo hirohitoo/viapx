@@ -1,0 +1,39 @@
+Table:PRESET
+ZERO	0	0	0	0	0
+Default	0	0	2000000	0	0
+CDOSE	0	0	4000000	0	0
+QMS	0	0	6000000	0	0
+test	0	0	10240000	0	0
+test2	0	0	10240000	0	0
+test3	0	0	12565537	0	0
+yag position	358400	243200	99328000	-4642133	0
+Sample Long Edge  	-460800	256000	93696000	-4642133	0
+SPUTTER POS	0	0	11520000	-4642133	0
+
+DB:MOTOR
+
+AXIS|MAP|MAV|MA|MRL|MRV|MR
+MX
+MY
+MZ
+MR
+MOVE
+SCAN
+
+select AXIS,MAP from omniax400 where MR=1
+
+
+Table:MOTORPREF
+MOTOR|HoldCurrent|RunCurrent|Backlash|BacklashVelocity|mm/rev|offset|MaxVelocity|MinVelocity
+MX
+MY
+MZ
+MR
+
+
+512000	737280	11520000	0
+
+MOVER
+Watch "MOTORSP".
+If Move=1, send move command to motor & change Move=0
+IF Scan=1, send 
