@@ -1,0 +1,7 @@
+ZERO	0	0	0	0	0
+Default	0	0	10000	0	0
+CDOSE	0	0	20000	0	0
+QMS	0	0	50000	0	0
+test	0	0	0	0	0
+test2	0	0	0	0	0
+test3	0	0	0	0	0

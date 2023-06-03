@@ -1,0 +1,9 @@
+Z 0.2"/rev   5.08 mm/rev
+x y 0.025/3"/rev  0.21167 mm/rev
+
+
+2.1167 =20000
+
+LIN ENGENEERING 5718M14DE Z   4.3A
+
+LIN ENGENEERING 5718X18DE X,Y  4.3A
